@@ -9,9 +9,9 @@ export class User {
   fullName: string;
 
   @Column()
-  @Index({unique: true})
+  @Index({ unique: true })
   public email: string;
-  
+
   @Column()
-  password: string
+  password: string;
 }
